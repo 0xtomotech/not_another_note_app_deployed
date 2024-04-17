@@ -1,7 +1,7 @@
 from django.db import models
 from django.contrib.auth.models import User
 
-
+# this is the model for the notes
 class Note(models.Model):
     title = models.CharField(max_length=100)
     content = models.TextField()
